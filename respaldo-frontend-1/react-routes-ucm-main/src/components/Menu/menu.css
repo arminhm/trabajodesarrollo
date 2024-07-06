@@ -1,0 +1,40 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 30px  60px ;
+    margin: 0;
+    display: flex;
+    margin-left: 50px; 
+    font-size: 18px;
+    font-weight: bold; 
+  }
+  
+  .menu li {
+    margin-left: 15px; 
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  .menu li a.active {
+    color: green;
+  }
+  

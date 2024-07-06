@@ -1,0 +1,40 @@
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .main-image {
+    height: 50%;
+    width: 100%;
+      
+  }
+  
+  .sub-sections {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding-top: 30px;
+  }
+  
+  .sub-section {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .sub-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px; 
+  }
+  
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0 10px;
+  }
+  
